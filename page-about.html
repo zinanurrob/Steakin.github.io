@@ -1,0 +1,747 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+    <!-- Document Meta
+    ============================================= -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--IE Compatibility Meta-->
+    <meta name="author" content="zytheme" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Elegant Restaurant & Cafe Html5 Template by zytheme">
+    <link href="assets/images/favicon/favicon.png" rel="icon">
+
+    <!-- Fonts
+    ============================================= -->
+    <link href='http://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,700,900%7CRuthie%7CAbril+Fatface' rel='stylesheet' type='text/css'>
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link href="assets/css/external.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Document Title
+    ============================================= -->
+    <title>SteakIn | Elegant Restaurant & Cafe Html5 Template</title>
+</head>
+
+<body>
+    <div class="preloader">
+    <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+</div>
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="wrapper clearfix">
+<header id="navbar-spy" class="header header-1 header-transparent header-fixed">
+    <nav id="primary-menu" class="navbar navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+                <a class="logo" href="index.html">
+					<img class="logo-light" src="assets/images/logo/logo-light.png" alt="Steakin Logo" draggable="false">
+					<img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Steakin Logo" draggable="false">
+				</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
+                <ul class="nav navbar-nav nav-pos-right navbar-left">
+                    <!-- Home Menu -->
+<li class="has-dropdown mega-dropdown active">
+    <a href="index.html" data-toggle="dropdown" class="dropdown-toggle menu-item">home</a>
+
+</li>
+<!-- li end -->
+
+<!-- About Menu -->
+<li class="has-dropdown">
+    <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">About</a>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="page-about.html">our story</a>
+        </li>
+        <li>
+            <a href="page-chefs.html">our chefs</a>
+        </li>
+        <li>
+            <a href="page-contacts.html">contact us</a>
+        </li>
+       
+       
+
+    </ul>
+</li>
+<!-- li end -->
+
+<!-- About Menu -->
+<li class="has-dropdown">
+    <a href="index.html" data-toggle="dropdown" class="dropdown-toggle  menu-item" data-hover="pages">Menu</a>
+</li>
+<!-- li end -->
+
+
+
+                <!-- Module Reservation  -->
+<div class="module module-reservation pull-left">
+    <a class="btn-popup btn-popup-theme" data-toggle="modal" data-target="#reservationModule">Book A Table</a>
+    <div class="modal fade reservation-popup" tabindex="-1" role="dialog" id="reservationModule">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
+                    <div class="row reservation reservation-1">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="reservation-form mb-30 text-center">
+                                <div class="reservation-bordered">
+                                    <div class="heading heading-1 text-center">
+                                        <p class="heading--subtitle">Reservation</p>
+                                        <h2 class="heading--title">Book Your Table</h2>
+                                        <div class="divider--shape-4"></div>
+                                    </div>
+                                    <div class="reservation--dec">
+                                        You can Book a table online easily in just a couple of minutes. We take reservations for lunch and dinner, just check the availability of your table & book it now!
+                                    </div>
+                                    <form method="post" action="assets/php/reservationpopup.php" class="reservationPopupForm mb-0">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                                <div class="form-select">
+                                                    <i class="fa fa-angle-down"></i>
+                                                    <select class="form-control" name="people" id="numPopup" required>
+														<option value="">Number of people</option>
+<option value="2">2 People</option>
+														<option value="3">3 People</option>
+														<option value="4">4 People</option>
+														<option value="5">5 People</option>
+														<option value="6">6 People</option>
+														<option value="8">8 People</option>
+														<option value="10">10 People</option>
+													</select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                                <div class="form-select">
+                                                    <i class="fa fa-angle-down"></i>
+                                                    <select class="form-control" name="day" id="dayPopup" required>
+														<option value="">Date</option>
+<option value="november 23">November 23, 2018</option>
+														<option value="november 24">November 24, 2018</option>
+														<option value="november 25">November 25, 2018</option>
+														<option value="november 26">November 26, 2018</option>
+														<option value="november 27">November 27, 2018</option>
+													</select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                                <div class="form-select">
+                                                    <i class="fa fa-angle-down"></i>
+                                                    <select class="form-control" name="time" id="timePopup" required>
+														<option value="">Time</option>
+<option value="8:00">8:00 PM</option>
+														<option value="9:00">9:00 PM</option>
+														<option value="10:00">10:00 PM</option>
+														<option value="11:00">11:00 PM</option>
+														<option value="12:00">12:00 AM</option>
+													</select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                                <button type="submit" id="submit-message" class="btn btn--secondary btn--block">Find Table</button>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                                <!--Alert Message-->
+                                                <div class="reservation-result"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .row end -->
+
+                                    </form>
+                                    <!-- form end -->
+                                </div>
+                            </div>
+                            <!-- .contact-form end -->
+                        </div>
+                        <!-- .col-md-8 end -->
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="text-uppercase text-center">
+                                <strong><span class="text-white">Reservation Powered by</span> <a href="#">Opentable</a></strong>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .row end -->
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+ 
+</header>
+
+<!-- Page Title #1
+============================================= -->
+<section id="page-title" class="page-title bg-overlay bg-parallax bg-overlay-gradient">
+    <div class="bg-section">
+        <img src="assets/images/page-title/2.jpg" alt="Background" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="title title-1 text-center">
+                    <div class="title--content">
+                        <div class="title--subtitle">Our Story</div>
+                        <div class="title--heading">
+                            <h1>We Are Steak In!</h1>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">about</a></li>
+                        <li class="active">Our Story</li>
+                    </ol>
+                    <div class="divider--shape-1down"></div>
+                </div>
+                <!-- .title end -->
+            </div>
+            <!-- .col-md-12 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #page-title end -->
+
+<!-- banner#7
+============================================= -->
+<section id="banner7" class="banner banner-1 text-center pb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                <div class="heading heading-1 text--center mb-50">
+                    <p class="heading--subtitle">Hello dear</p>
+                    <h2 class="heading--title">We Are Steak In!</h2>
+                    <div class="divider--shape-4"></div>
+                    <p class="heading--desc">Steak In Is a retaurant to open in Dhaka, the resturant was designed with the history in mind we have created a soft industrial dining room, combined with an open kitchen, coffee take out bar and on site coffee roastery.</p>
+                </div>
+                <!-- .heading end -->
+            </div>
+            <!-- .col-md-6 end -->
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="banner-panel">
+                    <div class="banner--img">
+                        <img src="assets/images/banners/steak in view 1.jpg" alt="banner img" class="img-responsive">
+                    </div>
+                </div>
+                <!-- .banner-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="banner-panel">
+                    <div class="banner--img">
+                        <img src="assets/images/banners/steak in view 2.jpg" alt="banner img" class="img-responsive">
+                    </div>
+                </div>
+                <!-- .banner-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+        </div>
+        <!-- .row end -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <div class="mt-20">
+                    Master Chef
+                </div>
+                <div class="signiture--img mt-10">
+                    <img src="assets/images/heading/Signiture.png" alt="Signiture img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #banner7 end -->
+
+<!-- Testimonial #5
+============================================= -->
+<section id="testimonial5" class="testimonial testimonial-5 bg-overlay bg-parallax bg-overlay-dark text-center">
+    <div class="bg-section">
+        <img src="assets/images/background/2.jpg" alt="Background" />
+    </div>
+    <div class="container">
+        <div class="divider--shape-1up"></div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                <div id="testimonial-wide" class="carousel carousel-white" data-slide="1" data-slide-rs="1" data-autoplay="false" data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="800">
+                    <!-- Testimonial #1 -->
+                    <div class="testimonial-panel">
+                        
+                        <div class="testimonial--body">
+                            <p class="color-white">Food is phenomenal. Crunchy munchie roll is a must when you go! All the servers are very attentive. Great overall experience.</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--author">
+                                <h4>Sumon Ahmed</h4>
+                            </div>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+
+                    <!-- Testimonial #2 -->
+                    <div class="testimonial-panel">
+                       
+                        <div class="testimonial--body">
+                            <p class="color-white">Our waiter Johnny was the best. We enjoyed dinner on Saturday. He was so helpful we loved having him as a waiter can’t wait to go back.</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--author">
+                                <h4>Sojib Biswash</h4>
+                            </div>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+
+                    <!-- Testimonial #3 -->
+                    <div class="testimonial-panel">
+                        
+                        <div class="testimonial--body">
+                            <p class="color-white">The best food ive ever tasted. I'm very excited to taste out their new food.</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--author">
+                                <h4>Mohammad Raj</h4>
+                            </div>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+
+                    <!-- Testimonial #4 -->
+                    <div class="testimonial-panel">
+                        
+                        <div class="testimonial--body">
+                            <p class="color-white">A quite and restful place to grab a cup of coffe. The environment rocks.</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--author">
+                                <h4>Ankita</h4>
+                            </div>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+                </div>
+            </div>
+            <!-- .col-md-12 end -->
+        </div>
+        <!-- .row end -->
+        <div class="divider--shape-1down"></div>
+    </div>
+    <!-- .container end -->
+</section>
+<!-- .testimonial5 end -->
+
+<!-- Testimonial #1
+============================================= -->
+<section id="testimonial1" class="testimonial testimonial-1 bg-overlay bg-parallax bg-overlay-dark">
+    <div class="bg-section">
+        <img src="assets/images/background/1.jpg" alt="Background" />
+    </div>
+
+    <div class="container">
+        <div class="divider--shape-1up"></div>
+        <div class="row clearfix">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                <div class="heading heading-1 mb-50 text--center">
+                    <p class="heading--subtitle">Testimonials</p>
+                    <h2 class="heading--title color-white">Happy Customers</h2>
+                    <div class="divider--shape-13"></div>
+                </div>
+            </div>
+            <!-- .col-md-8 end -->
+        </div>
+        <!-- .row end -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div id="testimonial-carousel" class="carousel carousel-dots carousel-white" data-slide="3" data-slide-rs="1" data-autoplay="false" data-nav="false" data-dots="true" data-space="30" data-loop="true" data-speed="800">
+                    <!-- Testimonial #1 -->
+                    <div class="testimonial-container">
+
+                        <div class="testimonial-panel">
+                            <div class="testimonial-bordered">
+                                <div class="testimonial--rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <!-- .testimonial-rating end -->
+                                <div class="testimonial--body">
+                                    <p>“ Steak In is the best food restaurent ive visited. Great Food! Hope i can visit again.</p>
+                                </div>
+                                <!-- .testimonial-body end -->
+                                <div class="testimonial--meta">
+                                    <div class="testimonial--img">
+                                        <img src="assets/images/testimonial/shuvo.jpg" alt="Testimonial Author">
+                                    </div>
+                                    <div class="testimonial--author">
+                                        <h4>Shuvo</h4>
+                                    </div>
+                                </div>
+                                <!-- .testimonial-meta end -->
+                            </div>
+                        </div>
+                        <!-- .testimonial-panel end -->
+                        <div class="divider--shape-1up"></div>
+                    </div>
+                    <!-- Testimonial #2 -->
+                    <div class="testimonial-container">
+
+                        <div class="testimonial-panel">
+                            <div class="testimonial-bordered">
+                                <div class="testimonial--rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <!-- .testimonial-rating end -->
+                                <div class="testimonial--body">
+                                    <p>“ We've been to Steak In many times over the years. We know what to expect: great food and awesome prices ”</p>
+                                </div>
+                                <!-- .testimonial-body end -->
+                                <div class="testimonial--meta">
+                                    <div class="testimonial--img">
+                                        <img src="assets/images/testimonial/mahin chowdhury.jfif" alt="Testimonial Author">
+                                    </div>
+                                    <div class="testimonial--author">
+                                        <h4>Mahin Chowdhuri</h4>
+                                    </div>
+                                </div>
+                                <!-- .testimonial-meta end -->
+                            </div>
+
+                        </div>
+                        <!-- .testimonial-panel end -->
+                        <div class="divider--shape-1up"></div>
+                    </div>
+                    <!-- Testimonial #3 -->
+                    <div class="testimonial-container">
+
+                        <div class="testimonial-panel">
+                            <div class="testimonial-bordered">
+                                <div class="testimonial--rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <!-- .testimonial-rating end -->
+                                <div class="testimonial--body">
+                                    <p>“ The reasonable prices, the great atmosphere are only topped by the delicious food. Keep up the great work ”</p>
+                                </div>
+                                <!-- .testimonial-body end -->
+                                <div class="testimonial--meta">
+                                    <div class="testimonial--img">
+                                        <img src="assets/images/testimonial/dip chandra das.jpg" alt="Testimonial Author">
+                                    </div>
+                                    <div class="testimonial--author">
+                                        <h4>Dip Chandra Das</h4>
+                                    </div>
+                                </div>
+                                <!-- .testimonial-meta end -->
+                            </div>
+
+                        </div>
+                        <!-- .testimonial-panel end -->
+                        <div class="divider--shape-1up"></div>
+                    </div>
+                    <!-- Testimonial #4 -->
+                    <div class="testimonial-container">
+
+                        <div class="testimonial-panel">
+                            <div class="testimonial-bordered">
+                                <div class="testimonial--rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <!-- .testimonial-rating end -->
+                                <div class="testimonial--body">
+                                    <p>“Best food restaurent in Dhanmondi! . Awesome environment, great for a family night out!”</p>
+                                </div>
+                                <!-- .testimonial-body end -->
+                                <div class="testimonial--meta">
+                                    <div class="testimonial--img">
+                                        <img src="assets/images/testimonial/sunil howladar.jfif" alt="Testimonial Author">
+                                    </div>
+                                    <div class="testimonial--author">
+                                        <h4>Sunil Howladar</h4>
+                                    </div>
+                                </div>
+                                <!-- .testimonial-meta end -->
+                            </div>
+                        </div>
+                        <!-- .testimonial-panel end -->
+                        <div class="divider--shape-1up"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- .col-md-12 end -->
+        </div>
+        <!-- .row end -->
+        <div class="divider--shape-1down"></div>
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #testimonial1 end -->
+
+<!-- Blog Carousel
+============================================= -->
+<section id="blog2" class="blog blog-carousel pb-80">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                <div class="heading heading-1 mb-50 text--center">
+                    <p class="heading--subtitle">Don’t miss</p>
+                    <h2 class="heading--title mb-0">Our News & Events</h2>
+                    <div class="divider--shape-4"></div>
+                </div>
+            </div>
+            <!-- .col-md-8 end -->
+        </div>
+        <!-- .row end -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="carousel" data-slide="3" data-slide-rs="2" data-autoplay="true" data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="800">
+
+                    <!-- Blog Entry #1 -->
+                    <div class="blog-entry">
+
+                        <div class="entry--content">
+                            <div class="entry--meta">
+                                <span class="entry--date">Feb 22, 2022</span> / <span><a href="#">Fall</a> , <a href="#">Side Dish</a></span>
+                            </div>
+                            <div class="entry--title">
+                                <h4><a href="#">Simple Recipes for Spring</a></h4>
+                            </div>
+                            <div class="entry--img">
+                                <a href="#">
+								<img src="assets/images/blog/grid/simple recipes for spring.jpg" alt="entry image"/>
+							</a>
+                            </div>
+                            <div class="entry--bio">
+                                My favorite form of cold-weather exercise is snow-shoeing, but by chance I haven’t been able to go this year. Too busy working at the computer
+                            </div>
+                        </div>
+                        <!-- .entry-content end -->
+                    </div>
+                    <!-- .blog-entry end -->
+
+                    <!-- Blog Entry #2 -->
+                    <div class="blog-entry">
+                        <div class="entry--content">
+                            <div class="entry--meta">
+                                <span class="entry--date">Feb 22, 2022</span> / <span><a href="#">Apple</a> , <a href="#">Stuffing And Dressing</a></span>
+                            </div>
+                            <div class="entry--title">
+                                <h4><a href="#">Dinner Party for a Chef!</a></h4>
+                            </div>
+                            <div class="entry--img">
+                                <a href="#">
+								<img src="assets/images/blog/grid/dinner party for a chef.jpg" alt="entry image"/>
+							</a>
+                            </div>
+                            <div class="entry--bio">
+                                I began my career as a recipe tester for cookbooks, and I did that work for two years. I loved cookbooks and loved browsing for them at thrift stores...
+                            </div>
+                        </div>
+                        <!-- .entry-content end -->
+                    </div>
+                    <!-- .blog-entry end -->
+
+                    <!-- Blog Entry #3 -->
+                    <div class="blog-entry">
+                        <div class="entry--content">
+                            <div class="entry--meta">
+                                <span class="entry--date">Feb 22, 2022</span> / <span><a href="#">Food</a> , <a href="#">Cheese</a></span>
+                            </div>
+                            <div class="entry--title">
+                                <h4><a href="#">Cake with Cream Cheese</a></h4>
+                            </div>
+                            <div class="entry--img">
+                                <a href="#">
+								<img src="assets/images/blog/grid/cake with cream cheese.jpg" alt="entry image"/>
+							</a>
+                            </div>
+                            <div class="entry--bio">
+                                I’ve been baking this cake for many years, and have experimented with making it into cupcakes, as a layer cake, serving it dusted with
+                            </div>
+                        </div>
+                        <!-- .entry-content end -->
+                    </div>
+                    <!-- .blog-entry end -->
+
+                    <!-- Blog Entry #4 -->
+                    <div class="blog-entry">
+
+                        <div class="entry--content">
+                            <div class="entry--meta">
+                                <span class="entry--date">Feb 22, 2022</span> / <span><a href="#">Green</a> , <a href="#">Casserole</a></span>
+                            </div>
+                            <div class="entry--title">
+                                <h4><a href="#">The Best Side Dishes</a></h4>
+                            </div>
+                            <div class="entry--img">
+                                <a href="#">
+							<img src="assets/images/blog/grid/the best side dishes.jpg" alt="entry image"/>
+						</a>
+                            </div>
+                            <div class="entry--bio">
+                                From green bean casserole to mashed potatoes and cranberry sauce, find standout Thanksgiving sides from Food Network chefs find standout.
+                            </div>
+                        </div>
+                        <!-- .entry-content end -->
+                    </div>
+                    <!-- .blog-entry end -->
+
+                    <!-- Blog Entry #5 -->
+                    <div class="blog-entry">
+
+                        <div class="entry--content">
+                            <div class="entry--meta">
+                                <span class="entry--date">Feb 22, 2022</span> / <span><a href="#">Casserole</a></span>
+                            </div>
+                            <div class="entry--title">
+                                <h4><a href="#">Cornbread Stuffing Apples</a></h4>
+                            </div>
+                            <div class="entry--img">
+                                <a href="#">
+							<img src="assets/images/blog/grid/cornbread stuffling apple.jpg" alt="entry image"/>
+						</a>
+                            </div>
+                            <div class="entry--bio">
+                                Cook sausage for 5 to 7 minutes until browned. Add onions and celery and saute until softened. Add salt and pepper, to taste. Mix in apples, thyme
+                            </div>
+                        </div>
+                        <!-- .entry-content end -->
+                    </div>
+                    <!-- .blog-entry end -->
+
+                </div>
+                <!-- .carousel end -->
+            </div>
+            <!-- .col-md-6 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #blog end -->
+
+<!-- footer#1
+============================================= -->
+<footer id="footer" class="footer footer-1 text-center">
+    <div class="divider--shape-dark"></div>
+    <!-- Widget Section
+	============================================= -->
+    <div class="footer--widget text--center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    
+                </div>
+                <!-- .col-md-4 end -->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="footer--widget-content">
+                        <img class="mb-20" src="assets/images/logo/logo-light.png" alt="logo">
+                        <p>Steak In has the perfect place to enjoy fine food and great cocktails with excellent service, in comfortable atmospheric surroundings. We have a soft dining room, combined with an open kitchen, coffee take out bar.</p>
+                    </div>
+                </div>
+                <!-- .col-md-3 end -->
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="footer--widget-content">
+                        <h3>Newsletter</h3>
+                        <div class="widget--newsletter">
+                            <form class="footer--social-newsletter mailchimp">
+                                <input type="email" name="email" class="form-control" placeholder="Subscribe Our Newsletter">
+                                <button type="submit">join</button>
+                            </form>
+                            <div class="subscribe-alert"></div>
+                        </div>
+                        <!-- .widget end -->
+                    </div>
+                </div>
+                <!-- .col-md-3 end -->
+            </div>
+        </div>
+        <!-- .container end -->
+    </div>
+    <!-- .footer-widget end -->
+    <!-- Copyrights
+	============================================= -->
+    <div class="footer--copyright text-center">
+        <div class="divider--shape-dark2"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="contact-info">
+                        <span>22 Al-Asad Building, Dhanmondi, Bangladesh</span> -
+                        <span>Steakin@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <span>&copy; 2022 Steak In, With Love by Steakin</span>
+                </div>
+            </div>
+        </div>
+        <!-- .container end -->
+    </div>
+    <!-- .footer-copyright end -->
+</footer>
+</div>
+<!-- #wrapper end -->
+
+<!-- Footer Scripts
+============================================= -->
+<script src="assets/js/jquery-2.2.4.min.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/functions.js"></script>
+</body>
+
+</html>
